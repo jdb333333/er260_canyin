@@ -1,0 +1,715 @@
+[Global]
+CurrentProject=seGIADA3000U.vpj
+[ProjectDates]
+seGIADA3000U.vpj=20170901032304484
+[TreeExpansion2]
+- seGIADA3000U.vpj
+  - ..\ER260_China
+    + EOSCLCD
+      - ..\ER260_China\EOSCLCD\Agree.c
+      - ..\ER260_China\EOSCLCD\appl.h
+      - ..\ER260_China\EOSCLCD\Balance.c
+      - ..\ER260_China\EOSCLCD\Barcode.c
+      - ..\ER260_China\EOSCLCD\bios.h
+      - ..\ER260_China\EOSCLCD\BIOS_CHN.h
+      - ..\ER260_China\EOSCLCD\bios_Dir.h
+      - ..\ER260_China\EOSCLCD\Buffer.c
+      - ..\ER260_China\EOSCLCD\Chinaapp.c
+      - ..\ER260_China\EOSCLCD\ChnDIsp.c
+      - ..\ER260_China\EOSCLCD\ChnDIsp.h
+      - ..\ER260_China\EOSCLCD\CHNInput.c
+      - ..\ER260_China\EOSCLCD\CHNInput.h
+      - ..\ER260_China\EOSCLCD\CHNMess.c
+      - ..\ER260_China\EOSCLCD\CHNMess.h
+      - ..\ER260_China\EOSCLCD\Clerk.c
+      - ..\ER260_China\EOSCLCD\Computer.c
+      - ..\ER260_China\EOSCLCD\Correc.c
+      - ..\ER260_China\EOSCLCD\Currency.c
+      - ..\ER260_China\EOSCLCD\debug.h
+      - ..\ER260_China\EOSCLCD\Depart.c
+      - ..\ER260_China\EOSCLCD\Discount.c
+      - ..\ER260_China\EOSCLCD\Drawer.c
+      - ..\ER260_China\EOSCLCD\EJournal.c
+      - ..\ER260_China\EOSCLCD\EJournal.h
+      - ..\ER260_China\EOSCLCD\ePOSCard.c
+      - ..\ER260_China\EOSCLCD\ePOSCard.h
+      - ..\ER260_China\EOSCLCD\exth.h
+      - ..\ER260_China\EOSCLCD\exthead.h
+      - ..\ER260_China\EOSCLCD\ExtModules.c
+      - ..\ER260_China\EOSCLCD\FEcrTest.c
+      - ..\ER260_China\EOSCLCD\FEcrTest.h
+      - ..\ER260_China\EOSCLCD\Firmkey.c
+      - ..\ER260_China\EOSCLCD\Fiscal.c
+      - ..\ER260_China\EOSCLCD\Fixed.c
+      - ..\ER260_China\EOSCLCD\Flowbill.c
+      - ..\ER260_China\EOSCLCD\flowbill.h
+      - ..\ER260_China\EOSCLCD\Format.c
+      - ..\ER260_China\EOSCLCD\General.c
+      - ..\ER260_China\EOSCLCD\Gprs.c
+      - ..\ER260_China\EOSCLCD\gprs.h
+      - ..\ER260_China\EOSCLCD\Group.c
+      - ..\ER260_China\EOSCLCD\Hardtest.c
+      - ..\ER260_China\EOSCLCD\ICCard.c
+      - ..\ER260_China\EOSCLCD\ICcard.h
+      - ..\ER260_China\EOSCLCD\ICCardBlock.c
+      - ..\ER260_China\EOSCLCD\Initappl.c
+      - ..\ER260_China\EOSCLCD\king.h
+      - ..\ER260_China\EOSCLCD\Kp.c
+      - ..\ER260_China\EOSCLCD\Main.c
+      - ..\ER260_China\EOSCLCD\MEMORY.c
+      - ..\ER260_China\EOSCLCD\Menu.c
+      - ..\ER260_China\EOSCLCD\Menu.h
+      - ..\ER260_China\EOSCLCD\Message.h
+      - ..\ER260_China\EOSCLCD\MessageCH_C.h
+      - ..\ER260_China\EOSCLCD\MessageCH_D16.h
+      - ..\ER260_China\EOSCLCD\MessageCH_P32.h
+      - ..\ER260_China\EOSCLCD\MessageEN_260.h
+      - ..\ER260_China\EOSCLCD\MessageEN_C.h
+      - ..\ER260_China\EOSCLCD\MessageEN_D21.h
+      - ..\ER260_China\EOSCLCD\MessageEN_P32.h
+      - ..\ER260_China\EOSCLCD\MessageSP.h
+      - ..\ER260_China\EOSCLCD\MessageVN_260.h
+      - ..\ER260_China\EOSCLCD\MessageVN_C.h
+      - ..\ER260_China\EOSCLCD\MessageVN_D21.h
+      - ..\ER260_China\EOSCLCD\MessageVN_P32.h
+      - ..\ER260_China\EOSCLCD\MFRCard.c
+      - ..\ER260_China\EOSCLCD\MFRCard.h
+      - ..\ER260_China\EOSCLCD\Modifier.c
+      - ..\ER260_China\EOSCLCD\OFFPrice.c
+      - ..\ER260_China\EOSCLCD\Pb.c
+      - ..\ER260_China\EOSCLCD\Pbbuffer.c
+      - ..\ER260_China\EOSCLCD\Plu.c
+      - ..\ER260_China\EOSCLCD\Pora.c
+      - ..\ER260_China\EOSCLCD\Port.c
+      - ..\ER260_China\EOSCLCD\Print.c
+      - ..\ER260_China\EOSCLCD\Progdump.c
+      - ..\ER260_China\EOSCLCD\Progopt.c
+      - ..\ER260_China\EOSCLCD\Program.c
+      - ..\ER260_China\EOSCLCD\PyCode.c
+      - ..\ER260_China\EOSCLCD\QR_Encode.c
+      - ..\ER260_China\EOSCLCD\QR_Encode.h
+      - ..\ER260_China\EOSCLCD\Report.c
+      - ..\ER260_China\EOSCLCD\Report2.c
+      - ..\ER260_China\EOSCLCD\Salper.c
+      - ..\ER260_China\EOSCLCD\Search.c
+      - ..\ER260_China\EOSCLCD\Tax.c
+      - ..\ER260_China\EOSCLCD\Tender.c
+      - ..\ER260_China\EOSCLCD\Timer.c
+      - ..\ER260_China\EOSCLCD\types.h
+      - ..\ER260_China\EOSCLCD\USBDiskApp.c
+      - ..\ER260_China\EOSCLCD\USBDISKAPP.H
+    + EOSTCPIP
+      + inc
+        - ..\ER260_China\EOSTCPIP\inc\cmd.h
+        - ..\ER260_China\EOSTCPIP\inc\httpd.h
+        - ..\ER260_China\EOSTCPIP\inc\tcp_server.h
+        - ..\ER260_China\EOSTCPIP\inc\udp_server.h
+        - ..\ER260_China\EOSTCPIP\inc\web_html.h
+      - ..\ER260_China\EOSTCPIP\cmd.c
+      - ..\ER260_China\EOSTCPIP\httpd.c
+      - ..\ER260_China\EOSTCPIP\tcp_server.c
+      - ..\ER260_China\EOSTCPIP\udp_server.c
+  - ..\STM32F103Driver
+    + Libraries
+      - CMSIS
+        + CoreSupport
+          - ..\STM32F103Driver\Libraries\CMSIS\CoreSupport\core_cm3.c
+          - ..\STM32F103Driver\Libraries\CMSIS\CoreSupport\core_cm3.h
+        - ..\STM32F103Driver\Libraries\CMSIS\stm32f10x.h
+        - ..\STM32F103Driver\Libraries\CMSIS\system_stm32f10x.c
+        - ..\STM32F103Driver\Libraries\CMSIS\system_stm32f10x.h
+      - STM32_USB-FS-Device_Driver
+        + inc
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\platform_config.h
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_def.h
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_init.h
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_int.h
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_mem.h
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_regs.h
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_sil.h
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h
+        - src
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\src\usb_int.c
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\src\usb_mem.c
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c
+          - ..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\src\usb_sil.c
+      + STM32F10x_StdPeriph_Driver
+        + inc
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
+        - src
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c
+          - ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c
+    - Print
+      - ..\STM32F103Driver\Print\Font12x24cy.h
+      - ..\STM32F103Driver\Print\Photo_abbigl.c
+      - ..\STM32F103Driver\Print\Photo_appetito.c
+      - ..\STM32F103Driver\Print\Photo_caf.c
+      - ..\STM32F103Driver\Print\Photo_caffe.c
+      - ..\STM32F103Driver\Print\Photo_carneval.c
+      - ..\STM32F103Driver\Print\Photo_cornetto.c
+      - ..\STM32F103Driver\Print\Photo_cucina.c
+      - ..\STM32F103Driver\Print\Photo_donna.c
+      - ..\STM32F103Driver\Print\Photo_eutron.c
+      - ..\STM32F103Driver\Print\Photo_fiori.c
+      - ..\STM32F103Driver\Print\Photo_gelato.c
+      - ..\STM32F103Driver\Print\Photo_ITALIA_MF.c
+      - ..\STM32F103Driver\Print\Photo_jolly.c
+      - ..\STM32F103Driver\Print\Photo_MALTA.c
+      - ..\STM32F103Driver\Print\Photo_mamma.c
+      - ..\STM32F103Driver\Print\Photo_natale.c
+      - ..\STM32F103Driver\Print\Photo_panama.c
+      - ..\STM32F103Driver\Print\Photo_pane.c
+      - ..\STM32F103Driver\Print\Photo_papa.c
+      - ..\STM32F103Driver\Print\Photo_pasqua.c
+      - ..\STM32F103Driver\Print\Photo_pesce.c
+      - ..\STM32F103Driver\Print\Photo_risparmi.c
+      - ..\STM32F103Driver\Print\Photo_salumi.c
+      - ..\STM32F103Driver\Print\Photo_selfdef.c
+      - ..\STM32F103Driver\Print\Photo_sport.c
+      - ..\STM32F103Driver\Print\Photo_vacanze.c
+      - ..\STM32F103Driver\Print\Photo_valentin.c
+      - ..\STM32F103Driver\Print\Photo_vuoto.c
+      - ..\STM32F103Driver\Print\print.h
+      - ..\STM32F103Driver\Print\Print_CAPD245.h
+      - ..\STM32F103Driver\Print\Print_CAPD347.h
+      - ..\STM32F103Driver\Print\Print_DEF.c
+      - ..\STM32F103Driver\Print\Print_FTP628MCL401.h
+      - ..\STM32F103Driver\Print\print_ltp1245.h
+      - ..\STM32F103Driver\Print\Print_LTPZ245.h
+      - ..\STM32F103Driver\Print\Print_Main.c
+      - ..\STM32F103Driver\Print\Print_PT486F.h
+      - ..\STM32F103Driver\Print\TypeDef.h
+      - ..\STM32F103Driver\Print\xPrint_CAPD245.h
+      - ..\STM32F103Driver\Print\xPrint_CAPD347.h
+      - ..\STM32F103Driver\Print\xPrint_ltp1245.h
+    - USER
+      + inc
+        - ..\STM32F103Driver\USER\inc\flash_stm32.h
+        - ..\STM32F103Driver\USER\inc\Flashb.h
+        - ..\STM32F103Driver\USER\inc\fsmc_sram.h
+        - ..\STM32F103Driver\USER\inc\include.h
+        - ..\STM32F103Driver\USER\inc\interface.h
+        - ..\STM32F103Driver\USER\inc\KeyBoard.h
+        - ..\STM32F103Driver\USER\inc\lcd_160x.h
+        - ..\STM32F103Driver\USER\inc\lcd_160x1.h
+        - ..\STM32F103Driver\USER\inc\lcd_160x2.h
+        - ..\STM32F103Driver\USER\inc\lcd_ht1621.h
+        - ..\STM32F103Driver\USER\inc\lcd_st7565r.h
+        - ..\STM32F103Driver\USER\inc\led_customer.h
+        - ..\STM32F103Driver\USER\inc\monitor.h
+        - ..\STM32F103Driver\USER\inc\nor_flash.h
+        - ..\STM32F103Driver\USER\inc\pwr_ctrl.h
+        - ..\STM32F103Driver\USER\inc\rtc.h
+        - ..\STM32F103Driver\USER\inc\sdio_sd.h
+        - ..\STM32F103Driver\USER\inc\spi_m25p80.h
+        - ..\STM32F103Driver\USER\inc\stm32f2xx.h
+        - ..\STM32F103Driver\USER\inc\stm32f2xx_conf.h
+        - ..\STM32F103Driver\USER\inc\stm32f2xx_it.h
+        - ..\STM32F103Driver\USER\inc\SysTick.h
+        - ..\STM32F103Driver\USER\inc\test.h
+        - ..\STM32F103Driver\USER\inc\TypeDef.h
+        - ..\STM32F103Driver\USER\inc\usart.h
+      - ..\STM32F103Driver\USER\asciifonts.c
+      - ..\STM32F103Driver\USER\ECR_IAP.c
+      - ..\STM32F103Driver\USER\flashb.c
+      - ..\STM32F103Driver\USER\fsmc_sram.c
+      - ..\STM32F103Driver\USER\interface.c
+      - ..\STM32F103Driver\USER\Interface_API.h
+      - ..\STM32F103Driver\USER\KeyBoard.c
+      - ..\STM32F103Driver\USER\lcd_160x.c
+      - ..\STM32F103Driver\USER\lcd_160x1.c
+      - ..\STM32F103Driver\USER\lcd_160x2.c
+      - ..\STM32F103Driver\USER\lcd_ht1621.c
+      - ..\STM32F103Driver\USER\lcd_st7565r.c
+      - ..\STM32F103Driver\USER\led_customer.c
+      - ..\STM32F103Driver\USER\monitor.c
+      - ..\STM32F103Driver\USER\newled_customer.c
+      - ..\STM32F103Driver\USER\nor_flash.c
+      - ..\STM32F103Driver\USER\pwr_ctrl.c
+      - ..\STM32F103Driver\USER\rtc.c
+      - ..\STM32F103Driver\USER\sdio_sd.c
+      - ..\STM32F103Driver\USER\spi_m25p80.c
+      - ..\STM32F103Driver\USER\stm32f10x_it.c
+      - ..\STM32F103Driver\USER\SysTick.c
+      - ..\STM32F103Driver\USER\usart.c
+      - ..\STM32F103Driver\USER\usb_app.c
+      - ..\STM32F103Driver\USER\USB_Application.c
+      - ..\STM32F103Driver\USER\usbh_usr.c
+    + Utilities
+      - Third_Party
+        + fat_fs
+          + inc
+            - ..\STM32F103Driver\Utilities\Third_Party\fat_fs\inc\diskio.h
+            - ..\STM32F103Driver\Utilities\Third_Party\fat_fs\inc\ff.h
+            - ..\STM32F103Driver\Utilities\Third_Party\fat_fs\inc\ffconf.h
+            - ..\STM32F103Driver\Utilities\Third_Party\fat_fs\inc\integer.h
+          + src
+            + option
+              - ..\STM32F103Driver\Utilities\Third_Party\fat_fs\src\option\ccsbcs.c
+              - ..\STM32F103Driver\Utilities\Third_Party\fat_fs\src\option\syncobj.c
+            - ..\STM32F103Driver\Utilities\Third_Party\fat_fs\src\diskio.c
+            - ..\STM32F103Driver\Utilities\Third_Party\fat_fs\src\ff.c
+      - USB_APP
+        - inc
+          - ..\STM32F103Driver\Utilities\USB_APP\inc\hw_config.h
+          - ..\STM32F103Driver\Utilities\USB_APP\inc\usb_conf.h
+          - ..\STM32F103Driver\Utilities\USB_APP\inc\usb_desc.h
+          - ..\STM32F103Driver\Utilities\USB_APP\inc\usb_istr.h
+          - ..\STM32F103Driver\Utilities\USB_APP\inc\usb_prop.h
+          - ..\STM32F103Driver\Utilities\USB_APP\inc\usb_pwr.h
+          - ..\STM32F103Driver\Utilities\USB_APP\inc\usbd_conf.h
+          - ..\STM32F103Driver\Utilities\USB_APP\inc\usbd_desc.h
+          - ..\STM32F103Driver\Utilities\USB_APP\inc\usbh_conf.h
+          - ..\STM32F103Driver\Utilities\USB_APP\inc\usbh_msc_usr.h
+          - ..\STM32F103Driver\Utilities\USB_APP\inc\usbh_usr.h
+        - ..\STM32F103Driver\Utilities\USB_APP\hw_config.c
+        - ..\STM32F103Driver\Utilities\USB_APP\usb_bsp.c
+        - ..\STM32F103Driver\Utilities\USB_APP\usb_desc.c
+        - ..\STM32F103Driver\Utilities\USB_APP\usb_endp.c
+        - ..\STM32F103Driver\Utilities\USB_APP\usb_istr.c
+        - ..\STM32F103Driver\Utilities\USB_APP\usb_prop.c
+        - ..\STM32F103Driver\Utilities\USB_APP\usb_pwr.c
+        - ..\STM32F103Driver\Utilities\USB_APP\usbd_desc.c
+        - ..\STM32F103Driver\Utilities\USB_APP\usbd_storage_msd.c
+        - ..\STM32F103Driver\Utilities\USB_APP\usbd_usr.c
+        - ..\STM32F103Driver\Utilities\USB_APP\usbh_msc_usr.c
+      - ..\STM32F103Driver\Utilities\system_stm32f2xx.c
+scroll:2
+[State]
+SCREEN: 1280 1024 17 17 1263 964 0 0 N 0 0 0 0 997 437 0
+CWD: ..\GIADA3000U
+BUFFER: BN="..\ER260_China\EOSCLCD\Kp.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=936 ESBU2=936 CL="" SC="" SCE= SCU=
+VIEW: LN=.22672 CL=6 LE=0 CX=7 CY=13 WI=5 BI=19 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\ER260_China\EOSCLCD\Main.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=936 ESBU2=936 CL="" SC="" SCE= SCU=
+VIEW: LN=.31284 CL=1 LE=0 CX=2 CY=14 WI=5 BI=22 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\ER260_China\EOSCLCD\ExtModules.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=936 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.0 CL=1 LE=0 CX=2 CY=0 WI=5 BI=23 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\STM32F103Driver\USER\flashb.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=936 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.23386 CL=18 LE=0 CX=19 CY=9 WI=5 BI=4 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\ER260_China\EOSCLCD\flowbill.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=936 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.11789 CL=14 LE=0 CX=15 CY=3 WI=5 BI=24 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\ER260_China\EOSCLCD\Discount.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=936 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.4420 CL=21 LE=0 CX=22 CY=7 WI=5 BI=25 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\ER260_China\EOSCLCD\exthead.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=936 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.3634 CL=6 LE=0 CX=7 CY=13 WI=5 BI=26 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\ER260_China\EOSCLCD\MEMORY.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=936 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.1146 CL=29 LE=0 CX=30 CY=9 WI=5 BI=27 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\STM32F103Driver\USER\stm32f10x_it.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=936 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.1473 CL=22 LE=0 CX=23 CY=13 WI=5 BI=28 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\ER260_China\EOSCLCD\Initappl.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=936 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.4000 CL=19 LE=0 CX=20 CY=4 WI=5 BI=29 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\ER260_China\EOSCLCD\appl.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=787040 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=936 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.452 CL=1 LE=0 CX=2 CY=16 WI=5 BI=30 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\STM32F103Driver\Print\Print_DEF.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=787040 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=936 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.0 CL=1 LE=0 CX=2 CY=0 WI=5 BI=21 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\STM32F103Driver\Print\Font12x24cy.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=787040 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=936 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.0 CL=1 LE=0 CX=2 CY=0 WI=5 BI=31 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 776 310 -1 -1 N  WF=0 WT=2 "Default Unicode Font,10,0,1"
+BUFFER: BN="..\ER260_China\EOSCLCD\Kp.c"
+VIEW: LN=.22672 CL=6 LE=0 CX=11 CY=13 WI=207 BI=19 HT=0 HN=0 HF=0 HC=4
+WINDOW: 220 120 776 310 -1 -1 N  WF=0 WT=1 "Default Unicode Font,10,0,1"
+BUFFER: BN="..\ER260_China\EOSCLCD\Main.c"
+VIEW: LN=.31284 CL=1 LE=0 CX=6 CY=14 WI=205 BI=22 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 776 376 -1 -1 N  WF=0 WT=4 "Default Unicode Font,10,0,1"
+BUFFER: BN="..\ER260_China\EOSCLCD\ExtModules.c"
+VIEW: LN=.0 CL=1 LE=0 CX=5 CY=0 WI=203 BI=23 HT=0 HN=0 HF=0 HC=4
+WINDOW: 80 96 776 376 -1 -1 N  WF=0 WT=5 "Default Unicode Font,10,0,1"
+BUFFER: BN="..\STM32F103Driver\USER\flashb.c"
+VIEW: LN=.23386 CL=18 LE=0 CX=23 CY=9 WI=201 BI=4 HT=0 HN=0 HF=0 HC=4
+WINDOW: 40 48 772 384 -1 -1 N  WF=0 WT=6 "Default Unicode Font,10,0,1"
+BUFFER: BN="..\ER260_China\EOSCLCD\flowbill.h"
+VIEW: LN=.11789 CL=14 LE=0 CX=19 CY=3 WI=199 BI=24 HT=0 HN=0 HF=0 HC=4
+WINDOW: 120 0 772 305 -1 -1 N  WF=0 WT=10 "Default Unicode Font,10,0,1"
+BUFFER: BN="..\ER260_China\EOSCLCD\Discount.c"
+VIEW: LN=.4420 CL=21 LE=0 CX=26 CY=7 WI=197 BI=25 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 772 305 -1 -1 N  WF=0 WT=3 "Default Unicode Font,10,0,1"
+BUFFER: BN="..\ER260_China\EOSCLCD\exthead.h"
+VIEW: LN=.3634 CL=6 LE=0 CX=11 CY=13 WI=195 BI=26 HT=0 HN=0 HF=0 HC=4
+WINDOW: 60 72 772 305 -1 -1 N  WF=0 WT=9 "Default Unicode Font,10,0,1"
+BUFFER: BN="..\ER260_China\EOSCLCD\MEMORY.c"
+VIEW: LN=.1146 CL=29 LE=0 CX=33 CY=9 WI=193 BI=27 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 772 305 -1 -1 N  WF=0 WT=11 "Default Unicode Font,10,0,1"
+BUFFER: BN="..\STM32F103Driver\USER\stm32f10x_it.c"
+VIEW: LN=.1473 CL=22 LE=0 CX=26 CY=13 WI=191 BI=28 HT=0 HN=0 HF=0 HC=4
+WINDOW: 60 72 772 305 -1 -1 N  WF=0 WT=7 "Default Unicode Font,10,0,1"
+BUFFER: BN="..\ER260_China\EOSCLCD\Initappl.c"
+VIEW: LN=.4000 CL=19 LE=0 CX=24 CY=4 WI=189 BI=29 HT=0 HN=0 HF=0 HC=4
+WINDOW: 140 24 772 305 -1 -1 N  WF=0 WT=8 "Default Unicode Font,10,0,1"
+BUFFER: BN="..\ER260_China\EOSCLCD\appl.h"
+VIEW: LN=.452 CL=1 LE=0 CX=5 CY=16 WI=187 BI=30 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 772 305 -1 -1 N  WF=0 WT=12 "Default Unicode Font,10,0,1"
+BUFFER: BN="..\STM32F103Driver\Print\Print_DEF.c"
+VIEW: LN=.0 CL=1 LE=0 CX=5 CY=0 WI=331 BI=21 HT=0 HN=0 HF=0 HC=4
+WINDOW: 20 24 772 305 -1 -1 M  WF=0 WT=14 "Default Unicode Font,10,0,1"
+BUFFER: BN="..\STM32F103Driver\Print\Font12x24cy.h"
+VIEW: LN=.436 CL=11 LE=0 CX=15 CY=10 WI=338 BI=31 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+..\ER260_China\EOSCLCD\Tax.c
+..\ER260_China\EOSCLCD\Discount.c
+..\ER260_China\EOSCLCD\exthead.h
+..\STM32F103Driver\USER\interface.c
+..\ER260_China\EOSCLCD\MEMORY.c
+..\ER260_China\EOSCLCD\Initappl.c
+..\STM32F103Driver\USER\stm32f10x_it.c
+..\STM32F103Driver\Print\Print_DEF.c
+..\STM32F103Driver\Print\Font12x24cy.h
+DEBUG: 0 0 0 0 3 0 gdb
+printf
+strcpy
+std::*
+DEBUG2: 0
+PROJECT_CACHE: 1
+20170901032304484 292 E:\CCRong\CCR.Work\NewECR\ECR_On_STM32\GIADA3000U\seGIADA3000U.vpj
+..\ER260_China\EOSCLCD\Agree.c
+..\ER260_China\EOSCLCD\appl.h
+..\ER260_China\EOSCLCD\Balance.c
+..\ER260_China\EOSCLCD\Barcode.c
+..\ER260_China\EOSCLCD\bios.h
+..\ER260_China\EOSCLCD\BIOS_CHN.h
+..\ER260_China\EOSCLCD\bios_Dir.h
+..\ER260_China\EOSCLCD\Buffer.c
+..\ER260_China\EOSCLCD\Chinaapp.c
+..\ER260_China\EOSCLCD\ChnDIsp.c
+..\ER260_China\EOSCLCD\ChnDIsp.h
+..\ER260_China\EOSCLCD\CHNInput.c
+..\ER260_China\EOSCLCD\CHNInput.h
+..\ER260_China\EOSCLCD\CHNMess.c
+..\ER260_China\EOSCLCD\CHNMess.h
+..\ER260_China\EOSCLCD\Clerk.c
+..\ER260_China\EOSCLCD\Computer.c
+..\ER260_China\EOSCLCD\Correc.c
+..\ER260_China\EOSCLCD\Currency.c
+..\ER260_China\EOSCLCD\debug.h
+..\ER260_China\EOSCLCD\Depart.c
+..\ER260_China\EOSCLCD\Discount.c
+..\ER260_China\EOSCLCD\Drawer.c
+..\ER260_China\EOSCLCD\EJournal.c
+..\ER260_China\EOSCLCD\EJournal.h
+..\ER260_China\EOSCLCD\ePOSCard.c
+..\ER260_China\EOSCLCD\ePOSCard.h
+..\ER260_China\EOSCLCD\exth.h
+..\ER260_China\EOSCLCD\exthead.h
+..\ER260_China\EOSCLCD\ExtModules.c
+..\ER260_China\EOSCLCD\FEcrTest.c
+..\ER260_China\EOSCLCD\FEcrTest.h
+..\ER260_China\EOSCLCD\Firmkey.c
+..\ER260_China\EOSCLCD\Fiscal.c
+..\ER260_China\EOSCLCD\Fixed.c
+..\ER260_China\EOSCLCD\Flowbill.c
+..\ER260_China\EOSCLCD\flowbill.h
+..\ER260_China\EOSCLCD\Format.c
+..\ER260_China\EOSCLCD\General.c
+..\ER260_China\EOSCLCD\Gprs.c
+..\ER260_China\EOSCLCD\gprs.h
+..\ER260_China\EOSCLCD\Group.c
+..\ER260_China\EOSCLCD\Hardtest.c
+..\ER260_China\EOSCLCD\ICCard.c
+..\ER260_China\EOSCLCD\ICcard.h
+..\ER260_China\EOSCLCD\ICCardBlock.c
+..\ER260_China\EOSCLCD\Initappl.c
+..\ER260_China\EOSCLCD\king.h
+..\ER260_China\EOSCLCD\Kp.c
+..\ER260_China\EOSCLCD\Main.c
+..\ER260_China\EOSCLCD\MEMORY.c
+..\ER260_China\EOSCLCD\Menu.c
+..\ER260_China\EOSCLCD\Menu.h
+..\ER260_China\EOSCLCD\Message.h
+..\ER260_China\EOSCLCD\MessageCH_C.h
+..\ER260_China\EOSCLCD\MessageCH_D16.h
+..\ER260_China\EOSCLCD\MessageCH_P32.h
+..\ER260_China\EOSCLCD\MessageEN_260.h
+..\ER260_China\EOSCLCD\MessageEN_C.h
+..\ER260_China\EOSCLCD\MessageEN_D21.h
+..\ER260_China\EOSCLCD\MessageEN_P32.h
+..\ER260_China\EOSCLCD\MessageSP.h
+..\ER260_China\EOSCLCD\MessageVN_260.h
+..\ER260_China\EOSCLCD\MessageVN_C.h
+..\ER260_China\EOSCLCD\MessageVN_D21.h
+..\ER260_China\EOSCLCD\MessageVN_P32.h
+..\ER260_China\EOSCLCD\MFRCard.c
+..\ER260_China\EOSCLCD\MFRCard.h
+..\ER260_China\EOSCLCD\Modifier.c
+..\ER260_China\EOSCLCD\OFFPrice.c
+..\ER260_China\EOSCLCD\Pb.c
+..\ER260_China\EOSCLCD\Pbbuffer.c
+..\ER260_China\EOSCLCD\Plu.c
+..\ER260_China\EOSCLCD\Pora.c
+..\ER260_China\EOSCLCD\Port.c
+..\ER260_China\EOSCLCD\Print.c
+..\ER260_China\EOSCLCD\Progdump.c
+..\ER260_China\EOSCLCD\Progopt.c
+..\ER260_China\EOSCLCD\Program.c
+..\ER260_China\EOSCLCD\PyCode.c
+..\ER260_China\EOSCLCD\QR_Encode.c
+..\ER260_China\EOSCLCD\QR_Encode.h
+..\ER260_China\EOSCLCD\Report.c
+..\ER260_China\EOSCLCD\Report2.c
+..\ER260_China\EOSCLCD\Salper.c
+..\ER260_China\EOSCLCD\Search.c
+..\ER260_China\EOSCLCD\Tax.c
+..\ER260_China\EOSCLCD\Tender.c
+..\ER260_China\EOSCLCD\Timer.c
+..\ER260_China\EOSCLCD\types.h
+..\ER260_China\EOSCLCD\USBDiskApp.c
+..\ER260_China\EOSCLCD\USBDISKAPP.H
+..\ER260_China\EOSTCPIP\inc\cmd.h
+..\ER260_China\EOSTCPIP\inc\httpd.h
+..\ER260_China\EOSTCPIP\inc\tcp_server.h
+..\ER260_China\EOSTCPIP\inc\udp_server.h
+..\ER260_China\EOSTCPIP\inc\web_html.h
+..\ER260_China\EOSTCPIP\cmd.c
+..\ER260_China\EOSTCPIP\httpd.c
+..\ER260_China\EOSTCPIP\tcp_server.c
+..\ER260_China\EOSTCPIP\udp_server.c
+..\STM32F103Driver\Libraries\CMSIS\CoreSupport\core_cm3.c
+..\STM32F103Driver\Libraries\CMSIS\CoreSupport\core_cm3.h
+..\STM32F103Driver\Libraries\CMSIS\stm32f10x.h
+..\STM32F103Driver\Libraries\CMSIS\system_stm32f10x.c
+..\STM32F103Driver\Libraries\CMSIS\system_stm32f10x.h
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\platform_config.h
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_def.h
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_init.h
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_int.h
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_mem.h
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_regs.h
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_sil.h
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\src\usb_int.c
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\src\usb_mem.c
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c
+..\STM32F103Driver\Libraries\STM32_USB-FS-Device_Driver\src\usb_sil.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c
+..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c
+..\STM32F103Driver\Print\Font12x24cy.h
+..\STM32F103Driver\Print\Photo_abbigl.c
+..\STM32F103Driver\Print\Photo_appetito.c
+..\STM32F103Driver\Print\Photo_caf.c
+..\STM32F103Driver\Print\Photo_caffe.c
+..\STM32F103Driver\Print\Photo_carneval.c
+..\STM32F103Driver\Print\Photo_cornetto.c
+..\STM32F103Driver\Print\Photo_cucina.c
+..\STM32F103Driver\Print\Photo_donna.c
+..\STM32F103Driver\Print\Photo_eutron.c
+..\STM32F103Driver\Print\Photo_fiori.c
+..\STM32F103Driver\Print\Photo_gelato.c
+..\STM32F103Driver\Print\Photo_ITALIA_MF.c
+..\STM32F103Driver\Print\Photo_jolly.c
+..\STM32F103Driver\Print\Photo_MALTA.c
+..\STM32F103Driver\Print\Photo_mamma.c
+..\STM32F103Driver\Print\Photo_natale.c
+..\STM32F103Driver\Print\Photo_panama.c
+..\STM32F103Driver\Print\Photo_pane.c
+..\STM32F103Driver\Print\Photo_papa.c
+..\STM32F103Driver\Print\Photo_pasqua.c
+..\STM32F103Driver\Print\Photo_pesce.c
+..\STM32F103Driver\Print\Photo_risparmi.c
+..\STM32F103Driver\Print\Photo_salumi.c
+..\STM32F103Driver\Print\Photo_selfdef.c
+..\STM32F103Driver\Print\Photo_sport.c
+..\STM32F103Driver\Print\Photo_vacanze.c
+..\STM32F103Driver\Print\Photo_valentin.c
+..\STM32F103Driver\Print\Photo_vuoto.c
+..\STM32F103Driver\Print\print.h
+..\STM32F103Driver\Print\Print_CAPD245.h
+..\STM32F103Driver\Print\Print_CAPD347.h
+..\STM32F103Driver\Print\Print_DEF.c
+..\STM32F103Driver\Print\Print_FTP628MCL401.h
+..\STM32F103Driver\Print\print_ltp1245.h
+..\STM32F103Driver\Print\Print_LTPZ245.h
+..\STM32F103Driver\Print\Print_Main.c
+..\STM32F103Driver\Print\Print_PT486F.h
+..\STM32F103Driver\Print\TypeDef.h
+..\STM32F103Driver\Print\xPrint_CAPD245.h
+..\STM32F103Driver\Print\xPrint_CAPD347.h
+..\STM32F103Driver\Print\xPrint_ltp1245.h
+..\STM32F103Driver\USER\inc\flash_stm32.h
+..\STM32F103Driver\USER\inc\Flashb.h
+..\STM32F103Driver\USER\inc\fsmc_sram.h
+..\STM32F103Driver\USER\inc\include.h
+..\STM32F103Driver\USER\inc\interface.h
+..\STM32F103Driver\USER\inc\KeyBoard.h
+..\STM32F103Driver\USER\inc\lcd_160x.h
+..\STM32F103Driver\USER\inc\lcd_160x1.h
+..\STM32F103Driver\USER\inc\lcd_160x2.h
+..\STM32F103Driver\USER\inc\lcd_ht1621.h
+..\STM32F103Driver\USER\inc\lcd_st7565r.h
+..\STM32F103Driver\USER\inc\led_customer.h
+..\STM32F103Driver\USER\inc\monitor.h
+..\STM32F103Driver\USER\inc\nor_flash.h
+..\STM32F103Driver\USER\inc\pwr_ctrl.h
+..\STM32F103Driver\USER\inc\rtc.h
+..\STM32F103Driver\USER\inc\sdio_sd.h
+..\STM32F103Driver\USER\inc\spi_m25p80.h
+..\STM32F103Driver\USER\inc\stm32f2xx.h
+..\STM32F103Driver\USER\inc\stm32f2xx_conf.h
+..\STM32F103Driver\USER\inc\stm32f2xx_it.h
+..\STM32F103Driver\USER\inc\SysTick.h
+..\STM32F103Driver\USER\inc\test.h
+..\STM32F103Driver\USER\inc\TypeDef.h
+..\STM32F103Driver\USER\inc\usart.h
+..\STM32F103Driver\USER\asciifonts.c
+..\STM32F103Driver\USER\ECR_IAP.c
+..\STM32F103Driver\USER\flashb.c
+..\STM32F103Driver\USER\fsmc_sram.c
+..\STM32F103Driver\USER\interface.c
+..\STM32F103Driver\USER\Interface_API.h
+..\STM32F103Driver\USER\KeyBoard.c
+..\STM32F103Driver\USER\lcd_160x.c
+..\STM32F103Driver\USER\lcd_160x1.c
+..\STM32F103Driver\USER\lcd_160x2.c
+..\STM32F103Driver\USER\lcd_ht1621.c
+..\STM32F103Driver\USER\lcd_st7565r.c
+..\STM32F103Driver\USER\led_customer.c
+..\STM32F103Driver\USER\monitor.c
+..\STM32F103Driver\USER\newled_customer.c
+..\STM32F103Driver\USER\nor_flash.c
+..\STM32F103Driver\USER\pwr_ctrl.c
+..\STM32F103Driver\USER\rtc.c
+..\STM32F103Driver\USER\sdio_sd.c
+..\STM32F103Driver\USER\spi_m25p80.c
+..\STM32F103Driver\USER\stm32f10x_it.c
+..\STM32F103Driver\USER\SysTick.c
+..\STM32F103Driver\USER\usart.c
+..\STM32F103Driver\USER\usb_app.c
+..\STM32F103Driver\USER\USB_Application.c
+..\STM32F103Driver\USER\usbh_usr.c
+..\STM32F103Driver\Utilities\Third_Party\fat_fs\inc\diskio.h
+..\STM32F103Driver\Utilities\Third_Party\fat_fs\inc\ff.h
+..\STM32F103Driver\Utilities\Third_Party\fat_fs\inc\ffconf.h
+..\STM32F103Driver\Utilities\Third_Party\fat_fs\inc\integer.h
+..\STM32F103Driver\Utilities\Third_Party\fat_fs\src\option\ccsbcs.c
+..\STM32F103Driver\Utilities\Third_Party\fat_fs\src\option\syncobj.c
+..\STM32F103Driver\Utilities\Third_Party\fat_fs\src\diskio.c
+..\STM32F103Driver\Utilities\Third_Party\fat_fs\src\ff.c
+..\STM32F103Driver\Utilities\USB_APP\inc\hw_config.h
+..\STM32F103Driver\Utilities\USB_APP\inc\usb_conf.h
+..\STM32F103Driver\Utilities\USB_APP\inc\usb_desc.h
+..\STM32F103Driver\Utilities\USB_APP\inc\usb_istr.h
+..\STM32F103Driver\Utilities\USB_APP\inc\usb_prop.h
+..\STM32F103Driver\Utilities\USB_APP\inc\usb_pwr.h
+..\STM32F103Driver\Utilities\USB_APP\inc\usbd_conf.h
+..\STM32F103Driver\Utilities\USB_APP\inc\usbd_desc.h
+..\STM32F103Driver\Utilities\USB_APP\inc\usbh_conf.h
+..\STM32F103Driver\Utilities\USB_APP\inc\usbh_msc_usr.h
+..\STM32F103Driver\Utilities\USB_APP\inc\usbh_usr.h
+..\STM32F103Driver\Utilities\USB_APP\hw_config.c
+..\STM32F103Driver\Utilities\USB_APP\usb_bsp.c
+..\STM32F103Driver\Utilities\USB_APP\usb_desc.c
+..\STM32F103Driver\Utilities\USB_APP\usb_endp.c
+..\STM32F103Driver\Utilities\USB_APP\usb_istr.c
+..\STM32F103Driver\Utilities\USB_APP\usb_prop.c
+..\STM32F103Driver\Utilities\USB_APP\usb_pwr.c
+..\STM32F103Driver\Utilities\USB_APP\usbd_desc.c
+..\STM32F103Driver\Utilities\USB_APP\usbd_storage_msd.c
+..\STM32F103Driver\Utilities\USB_APP\usbd_usr.c
+..\STM32F103Driver\Utilities\USB_APP\usbh_msc_usr.c
+..\STM32F103Driver\Utilities\system_stm32f2xx.c
+TBCLASS: 0 0

@@ -1,0 +1,42 @@
+
+#ifndef __PWR_CTRL_H
+#define __PWR_CTRL_H
+
+#if 0 //ER-380
+
+#define DC_DET_Pin		GPIO_Pin_6
+#define DC_DET_GET()	((GPIOC->IDR & DC_DET_Pin) != 0)
+
+#else //ER-220
+
+//检测系统供电方式
+#define DC_DET_Pin		GPIO_Pin_10
+#define DC_DET_GET()	((GPIOA->IDR & DC_DET_Pin) != 0)    /* TRUE--适配器供电, FALSE--电池供电*/
+
+#endif
+
+#define	GET_VIN_STATUS	1
+#define	GET_VRTC_STATUS	2
+
+#define PWR_STAT_OK		1
+#define PWR_WARNING1	2
+#define PWR_WARNING2	4
+
+extern __IO uint16_t Vin_Backup_ADCValue[2];
+extern uint8_t PowerFlags;		//检测到的电源状态
+/*
+    Bit0:=0,为适配器供电;=1,为电池供电
+    Bit1:=1,为电池供电时,出现报警PWR_WARNING1(电压次低)
+    Bit2:=1,为电池供电时,出现报警PWR_WARNING2(电压过低)
+
+    Bit4:=1,纽扣电池出现报警PWR_WARNING1(电压次低)
+    Bit5:=1,纽扣电池出现报警PWR_WARNING2(电压过低)
+
+*/
+
+void pwr_Init(void);
+uint8_t pwrGetStatus(uint8_t GetStatus);
+
+
+
+#endif	//__PWR_CTRL_H

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectSettings
+	AppVer="4.00.0084"
+	AppVerMinReader="4.00.0034"
+	GlobalConfiguration="1"
+	GlobalWorkspace="0"
+	LocalsInDb="0"
+	IndexMembers="1"
+	IndexFragments="1"
+	UseMasterFileList="0"
+	SourceDir="..\"
+	BackupDir="%PROJECT_DATA_DIR%\Backup"
+	MasterFileList="%PROJECT_SOURCE_DIR%\%PROJECT_NAME%_filelist.txt"
+	IsImportProject="0"
+	>
+	<Imports>
+		<ImportedLibs/>
+	</Imports>
+	<ParseConditions>
+		<Defines>
+			<define id="CASE_ER260" value="1" />
+			<define id="CHAR_6X8" value="1" />
+			<define id="STM32F10X_HD" value="1" />
+			<define id="STM32F10X_HD_USBCOMM" value="1" />
+			<define id="USE_STDPERIPH_DRIVER" value="1" />
+		</Defines>
+	</ParseConditions>
+</ProjectSettings>

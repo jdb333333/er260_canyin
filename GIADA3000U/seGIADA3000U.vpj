@@ -1,0 +1,496 @@
+<!DOCTYPE Project SYSTEM "http://www.slickedit.com/dtd/vse/10.0/vpj.dtd">
+<Project
+	Version="10.0"
+	VendorName="SlickEdit"
+	WorkingDir="."
+	VCSProject="Subversion:">
+	<Config
+		Name="Debug"
+		Type="cpp"
+		DebugCallbackName="gdb"
+		OutputFile="%bdseER_220"
+		CompilerConfigName="ST-Cortex-M3">
+		<Menu>
+			<Target
+				Name="Compile"
+				MenuCaption="&amp;Compile"
+				CaptureOutputWith="ProcessBuffer"
+				OutputExts="*.o"
+				SaveOption="SaveCurrent"
+				RunFromDir="%rw">
+				<Exec CmdLine='cc -c -g %i %defd -o "%bd%n.o" "%f"'/>
+			</Target>
+			<Target
+				Name="Link"
+				MenuCaption="&amp;Link">
+				<Exec CmdLine='cc -g -o "%o" %f %libs'/>
+			</Target>
+			<Target
+				Name="Build"
+				MenuCaption="&amp;Build"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec CmdLine='C:\Keil_ARM\ARM\BIN40\armcc.exe -c %i -o "%bd%n.o" "%f" '/>
+			</Target>
+			<Target
+				Name="Rebuild"
+				MenuCaption="&amp;Rebuild"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec CmdLine='"%(VSLICKBIN1)vsbuild" rebuild "%w" "%r"'/>
+			</Target>
+			<Target
+				Name="Debug"
+				MenuCaption="&amp;Debug"
+				SaveOption="SaveNone"
+				BuildFirst="1"
+				CaptureOutputWith="ProcessBuffer"
+				RunFromDir="%rw">
+				<Exec CmdLine='vsdebugio -prog "%o"'/>
+			</Target>
+			<Target
+				Name="Execute"
+				MenuCaption="E&amp;xecute"
+				SaveOption="SaveNone"
+				BuildFirst="1"
+				CaptureOutputWith="ProcessBuffer"
+				RunFromDir="%rw">
+				<Exec CmdLine='"%o"'/>
+			</Target>
+		</Menu>
+		<Includes>
+		</Includes>
+	</Config>
+	<Config
+		Name="Release"
+		Type="cpp"
+		DebugCallbackName="gdb"
+		OutputFile="%bdseER_220"
+		CompilerConfigName="ST-Cortex-M3">
+		<Menu>
+			<Target
+				Name="Compile"
+				MenuCaption="&amp;Compile"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveCurrent"
+				OutputExts="*.o"
+				RunFromDir="%rw">
+				<Exec CmdLine='cc -c -O %i %defd -o "%bd%n.o" "%f"'/>
+			</Target>
+			<Target
+				Name="Link"
+				MenuCaption="&amp;Link">
+				<Exec CmdLine='cc -O -o "%o" %f %libs'/>
+			</Target>
+			<Target
+				Name="Build"
+				MenuCaption="&amp;Build"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec CmdLine='C:\Keil_ARM\ARM\BIN40\armcc.exe -c %i -o "%bd%n.o" "%f" '/>
+			</Target>
+			<Target
+				Name="Rebuild"
+				MenuCaption="&amp;Rebuild"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec CmdLine='"%(VSLICKBIN1)vsbuild" rebuild "%w" "%r"'/>
+			</Target>
+			<Target
+				Name="Debug"
+				MenuCaption="&amp;Debug"
+				SaveOption="SaveNone"
+				BuildFirst="1"
+				CaptureOutputWith="ProcessBuffer"
+				RunFromDir="%rw">
+				<Exec CmdLine='vsdebugio -prog "%o"'/>
+			</Target>
+			<Target
+				Name="Execute"
+				MenuCaption="E&amp;xecute"
+				SaveOption="SaveNone"
+				BuildFirst="1"
+				CaptureOutputWith="ProcessBuffer"
+				RunFromDir="%rw">
+				<Exec CmdLine='"%o"'/>
+			</Target>
+		</Menu>
+		<Includes>
+		</Includes>
+	</Config>
+	<Rules Name="Compile">
+		<Rule
+			InputExts="*.s"
+			OutputExts="*.o"
+			LinkObject="1">
+			<Exec CmdLine='as -o "%bd%n.o" "%f"'/>
+		</Rule>
+	</Rules>
+	<CustomFolders>
+		<Folder
+			Name="Source Files"
+			Filters="*.c;*.C;*.cc;*.cpp;*.cp;*.cxx;*.c++;*.prg;*.pas;*.dpr;*.asm;*.s;*.bas;*.java;*.cs;*.sc;*.e;*.cob;*.html;*.rc;*.tcl;*.py;*.pl;*.d">
+		</Folder>
+		<Folder
+			Name="Header Files"
+			Filters="*.h;*.H;*.hh;*.hpp;*.hxx;*.inc;*.sh;*.cpy;*.if">
+		</Folder>
+		<Folder
+			Name="Resource Files"
+			Filters="*.ico;*.cur;*.dlg"/>
+		<Folder
+			Name="Bitmaps"
+			Filters="*.bmp"/>
+		<Folder
+			Name="Other Files"
+			Filters=""/>
+	</CustomFolders>
+	<Files AutoFolders="DirectoryView">
+		<Folder Name="../ER260_China">
+			<Folder Name="EOSCLCD">
+				<F N="../ER260_China/EOSCLCD/Agree.c"/>
+				<F N="../ER260_China/EOSCLCD/appl.h"/>
+				<F N="../ER260_China/EOSCLCD/Balance.c"/>
+				<F N="../ER260_China/EOSCLCD/Barcode.c"/>
+				<F N="../ER260_China/EOSCLCD/bios.h"/>
+				<F N="../ER260_China/EOSCLCD/BIOS_CHN.h"/>
+				<F N="../ER260_China/EOSCLCD/bios_Dir.h"/>
+				<F N="../ER260_China/EOSCLCD/Buffer.c"/>
+				<F N="../ER260_China/EOSCLCD/Chinaapp.c"/>
+				<F N="../ER260_China/EOSCLCD/ChnDIsp.c"/>
+				<F N="../ER260_China/EOSCLCD/ChnDIsp.h"/>
+				<F N="../ER260_China/EOSCLCD/CHNInput.c"/>
+				<F N="../ER260_China/EOSCLCD/CHNInput.h"/>
+				<F N="../ER260_China/EOSCLCD/CHNMess.c"/>
+				<F N="../ER260_China/EOSCLCD/CHNMess.h"/>
+				<F N="../ER260_China/EOSCLCD/Clerk.c"/>
+				<F N="../ER260_China/EOSCLCD/Computer.c"/>
+				<F N="../ER260_China/EOSCLCD/Correc.c"/>
+				<F N="../ER260_China/EOSCLCD/Currency.c"/>
+				<F N="../ER260_China/EOSCLCD/debug.h"/>
+				<F N="../ER260_China/EOSCLCD/Depart.c"/>
+				<F N="../ER260_China/EOSCLCD/Discount.c"/>
+				<F N="../ER260_China/EOSCLCD/Drawer.c"/>
+				<F N="../ER260_China/EOSCLCD/EJournal.c"/>
+				<F N="../ER260_China/EOSCLCD/EJournal.h"/>
+				<F N="../ER260_China/EOSCLCD/ePOSCard.c"/>
+				<F N="../ER260_China/EOSCLCD/ePOSCard.h"/>
+				<F N="../ER260_China/EOSCLCD/exth.h"/>
+				<F N="../ER260_China/EOSCLCD/exthead.h"/>
+				<F N="../ER260_China/EOSCLCD/ExtModules.c"/>
+				<F N="../ER260_China/EOSCLCD/FEcrTest.c"/>
+				<F N="../ER260_China/EOSCLCD/FEcrTest.h"/>
+				<F N="../ER260_China/EOSCLCD/Firmkey.c"/>
+				<F N="../ER260_China/EOSCLCD/Fiscal.c"/>
+				<F N="../ER260_China/EOSCLCD/Fixed.c"/>
+				<F N="../ER260_China/EOSCLCD/Flowbill.c"/>
+				<F N="../ER260_China/EOSCLCD/flowbill.h"/>
+				<F N="../ER260_China/EOSCLCD/Format.c"/>
+				<F N="../ER260_China/EOSCLCD/General.c"/>
+				<F N="../ER260_China/EOSCLCD/Gprs.c"/>
+				<F N="../ER260_China/EOSCLCD/gprs.h"/>
+				<F N="../ER260_China/EOSCLCD/Group.c"/>
+				<F N="../ER260_China/EOSCLCD/Hardtest.c"/>
+				<F N="../ER260_China/EOSCLCD/ICCard.c"/>
+				<F N="../ER260_China/EOSCLCD/ICcard.h"/>
+				<F N="../ER260_China/EOSCLCD/ICCardBlock.c"/>
+				<F N="../ER260_China/EOSCLCD/Initappl.c"/>
+				<F N="../ER260_China/EOSCLCD/king.h"/>
+				<F N="../ER260_China/EOSCLCD/Kp.c"/>
+				<F N="../ER260_China/EOSCLCD/Main.c"/>
+				<F N="../ER260_China/EOSCLCD/MEMORY.c"/>
+				<F N="../ER260_China/EOSCLCD/Menu.c"/>
+				<F N="../ER260_China/EOSCLCD/Menu.h"/>
+				<F N="../ER260_China/EOSCLCD/Message.h"/>
+				<F N="../ER260_China/EOSCLCD/MessageCH_C.h"/>
+				<F N="../ER260_China/EOSCLCD/MessageCH_D16.h"/>
+				<F N="../ER260_China/EOSCLCD/MessageCH_P32.h"/>
+				<F N="../ER260_China/EOSCLCD/MessageEN_260.h"/>
+				<F N="../ER260_China/EOSCLCD/MessageEN_C.h"/>
+				<F N="../ER260_China/EOSCLCD/MessageEN_D21.h"/>
+				<F N="../ER260_China/EOSCLCD/MessageEN_P32.h"/>
+				<F N="../ER260_China/EOSCLCD/MessageSP.h"/>
+				<F N="../ER260_China/EOSCLCD/MessageVN_260.h"/>
+				<F N="../ER260_China/EOSCLCD/MessageVN_C.h"/>
+				<F N="../ER260_China/EOSCLCD/MessageVN_D21.h"/>
+				<F N="../ER260_China/EOSCLCD/MessageVN_P32.h"/>
+				<F N="../ER260_China/EOSCLCD/MFRCard.c"/>
+				<F N="../ER260_China/EOSCLCD/MFRCard.h"/>
+				<F N="../ER260_China/EOSCLCD/Modifier.c"/>
+				<F N="../ER260_China/EOSCLCD/OFFPrice.c"/>
+				<F N="../ER260_China/EOSCLCD/Pb.c"/>
+				<F N="../ER260_China/EOSCLCD/Pbbuffer.c"/>
+				<F N="../ER260_China/EOSCLCD/Plu.c"/>
+				<F N="../ER260_China/EOSCLCD/Pora.c"/>
+				<F N="../ER260_China/EOSCLCD/Port.c"/>
+				<F N="../ER260_China/EOSCLCD/Print.c"/>
+				<F N="../ER260_China/EOSCLCD/Progdump.c"/>
+				<F N="../ER260_China/EOSCLCD/Progopt.c"/>
+				<F N="../ER260_China/EOSCLCD/Program.c"/>
+				<F N="../ER260_China/EOSCLCD/PyCode.c"/>
+				<F N="../ER260_China/EOSCLCD/QR_Encode.c"/>
+				<F N="../ER260_China/EOSCLCD/QR_Encode.h"/>
+				<F N="../ER260_China/EOSCLCD/Report.c"/>
+				<F N="../ER260_China/EOSCLCD/Report2.c"/>
+				<F N="../ER260_China/EOSCLCD/Salper.c"/>
+				<F N="../ER260_China/EOSCLCD/Search.c"/>
+				<F N="../ER260_China/EOSCLCD/Tax.c"/>
+				<F N="../ER260_China/EOSCLCD/Tender.c"/>
+				<F N="../ER260_China/EOSCLCD/Timer.c"/>
+				<F N="../ER260_China/EOSCLCD/types.h"/>
+				<F N="../ER260_China/EOSCLCD/USBDiskApp.c"/>
+				<F N="../ER260_China/EOSCLCD/USBDISKAPP.H"/>
+			</Folder>
+			<Folder Name="EOSTCPIP">
+				<Folder Name="inc">
+					<F N="../ER260_China/EOSTCPIP/inc/cmd.h"/>
+					<F N="../ER260_China/EOSTCPIP/inc/httpd.h"/>
+					<F N="../ER260_China/EOSTCPIP/inc/tcp_server.h"/>
+					<F N="../ER260_China/EOSTCPIP/inc/udp_server.h"/>
+					<F N="../ER260_China/EOSTCPIP/inc/web_html.h"/>
+				</Folder>
+				<F N="../ER260_China/EOSTCPIP/cmd.c"/>
+				<F N="../ER260_China/EOSTCPIP/httpd.c"/>
+				<F N="../ER260_China/EOSTCPIP/tcp_server.c"/>
+				<F N="../ER260_China/EOSTCPIP/udp_server.c"/>
+			</Folder>
+		</Folder>
+		<Folder Name="../STM32F103Driver">
+			<Folder Name="Libraries">
+				<Folder Name="CMSIS">
+					<Folder Name="CoreSupport">
+						<F N="../STM32F103Driver/Libraries/CMSIS/CoreSupport/core_cm3.c"/>
+						<F N="../STM32F103Driver/Libraries/CMSIS/CoreSupport/core_cm3.h"/>
+					</Folder>
+					<F N="../STM32F103Driver/Libraries/CMSIS/stm32f10x.h"/>
+					<F N="../STM32F103Driver/Libraries/CMSIS/system_stm32f10x.c"/>
+					<F N="../STM32F103Driver/Libraries/CMSIS/system_stm32f10x.h"/>
+				</Folder>
+				<Folder Name="STM32_USB-FS-Device_Driver">
+					<Folder Name="inc">
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/inc/platform_config.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/inc/usb_core.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/inc/usb_def.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/inc/usb_init.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/inc/usb_int.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/inc/usb_lib.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/inc/usb_mem.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/inc/usb_regs.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/inc/usb_sil.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/inc/usb_type.h"/>
+					</Folder>
+					<Folder Name="src">
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/src/usb_core.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/src/usb_init.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/src/usb_int.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.c"/>
+					</Folder>
+				</Folder>
+				<Folder Name="STM32F10x_StdPeriph_Driver">
+					<Folder Name="inc">
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_adc.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_bkp.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_can.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_cec.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_crc.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dac.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dbgmcu.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dma.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_flash.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_fsmc.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_i2c.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_iwdg.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rtc.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_sdio.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_usart.h"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_wwdg.h"/>
+					</Folder>
+					<Folder Name="src">
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c"/>
+						<F N="../STM32F103Driver/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.c"/>
+					</Folder>
+				</Folder>
+			</Folder>
+			<Folder Name="Print">
+				<F N="../STM32F103Driver/Print/Font12x24cy.h"/>
+				<F N="../STM32F103Driver/Print/Photo_abbigl.c"/>
+				<F N="../STM32F103Driver/Print/Photo_appetito.c"/>
+				<F N="../STM32F103Driver/Print/Photo_caf.c"/>
+				<F N="../STM32F103Driver/Print/Photo_caffe.c"/>
+				<F N="../STM32F103Driver/Print/Photo_carneval.c"/>
+				<F N="../STM32F103Driver/Print/Photo_cornetto.c"/>
+				<F N="../STM32F103Driver/Print/Photo_cucina.c"/>
+				<F N="../STM32F103Driver/Print/Photo_donna.c"/>
+				<F N="../STM32F103Driver/Print/Photo_eutron.c"/>
+				<F N="../STM32F103Driver/Print/Photo_fiori.c"/>
+				<F N="../STM32F103Driver/Print/Photo_gelato.c"/>
+				<F N="../STM32F103Driver/Print/Photo_ITALIA_MF.c"/>
+				<F N="../STM32F103Driver/Print/Photo_jolly.c"/>
+				<F N="../STM32F103Driver/Print/Photo_MALTA.c"/>
+				<F N="../STM32F103Driver/Print/Photo_mamma.c"/>
+				<F N="../STM32F103Driver/Print/Photo_natale.c"/>
+				<F N="../STM32F103Driver/Print/Photo_panama.c"/>
+				<F N="../STM32F103Driver/Print/Photo_pane.c"/>
+				<F N="../STM32F103Driver/Print/Photo_papa.c"/>
+				<F N="../STM32F103Driver/Print/Photo_pasqua.c"/>
+				<F N="../STM32F103Driver/Print/Photo_pesce.c"/>
+				<F N="../STM32F103Driver/Print/Photo_risparmi.c"/>
+				<F N="../STM32F103Driver/Print/Photo_salumi.c"/>
+				<F N="../STM32F103Driver/Print/Photo_selfdef.c"/>
+				<F N="../STM32F103Driver/Print/Photo_sport.c"/>
+				<F N="../STM32F103Driver/Print/Photo_vacanze.c"/>
+				<F N="../STM32F103Driver/Print/Photo_valentin.c"/>
+				<F N="../STM32F103Driver/Print/Photo_vuoto.c"/>
+				<F N="../STM32F103Driver/Print/print.h"/>
+				<F N="../STM32F103Driver/Print/Print_CAPD245.h"/>
+				<F N="../STM32F103Driver/Print/Print_CAPD347.h"/>
+				<F N="../STM32F103Driver/Print/Print_DEF.c"/>
+				<F N="../STM32F103Driver/Print/Print_FTP628MCL401.h"/>
+				<F N="../STM32F103Driver/Print/print_ltp1245.h"/>
+				<F N="../STM32F103Driver/Print/Print_LTPZ245.h"/>
+				<F N="../STM32F103Driver/Print/Print_Main.c"/>
+				<F N="../STM32F103Driver/Print/Print_PT486F.h"/>
+				<F N="../STM32F103Driver/Print/TypeDef.h"/>
+				<F N="../STM32F103Driver/Print/xPrint_CAPD245.h"/>
+				<F N="../STM32F103Driver/Print/xPrint_CAPD347.h"/>
+				<F N="../STM32F103Driver/Print/xPrint_ltp1245.h"/>
+			</Folder>
+			<Folder Name="USER">
+				<Folder Name="inc">
+					<F N="../STM32F103Driver/USER/inc/flash_stm32.h"/>
+					<F N="../STM32F103Driver/USER/inc/Flashb.h"/>
+					<F N="../STM32F103Driver/USER/inc/fsmc_sram.h"/>
+					<F N="../STM32F103Driver/USER/inc/include.h"/>
+					<F N="../STM32F103Driver/USER/inc/interface.h"/>
+					<F N="../STM32F103Driver/USER/inc/KeyBoard.h"/>
+					<F N="../STM32F103Driver/USER/inc/lcd_160x.h"/>
+					<F N="../STM32F103Driver/USER/inc/lcd_160x1.h"/>
+					<F N="../STM32F103Driver/USER/inc/lcd_160x2.h"/>
+					<F N="../STM32F103Driver/USER/inc/lcd_ht1621.h"/>
+					<F N="../STM32F103Driver/USER/inc/lcd_st7565r.h"/>
+					<F N="../STM32F103Driver/USER/inc/led_customer.h"/>
+					<F N="../STM32F103Driver/USER/inc/monitor.h"/>
+					<F N="../STM32F103Driver/USER/inc/nor_flash.h"/>
+					<F N="../STM32F103Driver/USER/inc/pwr_ctrl.h"/>
+					<F N="../STM32F103Driver/USER/inc/rtc.h"/>
+					<F N="../STM32F103Driver/USER/inc/sdio_sd.h"/>
+					<F N="../STM32F103Driver/USER/inc/spi_m25p80.h"/>
+					<F N="../STM32F103Driver/USER/inc/stm32f2xx.h"/>
+					<F N="../STM32F103Driver/USER/inc/stm32f2xx_conf.h"/>
+					<F N="../STM32F103Driver/USER/inc/stm32f2xx_it.h"/>
+					<F N="../STM32F103Driver/USER/inc/SysTick.h"/>
+					<F N="../STM32F103Driver/USER/inc/test.h"/>
+					<F N="../STM32F103Driver/USER/inc/TypeDef.h"/>
+					<F N="../STM32F103Driver/USER/inc/usart.h"/>
+				</Folder>
+				<F N="../STM32F103Driver/USER/asciifonts.c"/>
+				<F N="../STM32F103Driver/USER/ECR_IAP.c"/>
+				<F N="../STM32F103Driver/USER/flashb.c"/>
+				<F N="../STM32F103Driver/USER/fsmc_sram.c"/>
+				<F N="../STM32F103Driver/USER/interface.c"/>
+				<F N="../STM32F103Driver/USER/Interface_API.h"/>
+				<F N="../STM32F103Driver/USER/KeyBoard.c"/>
+				<F N="../STM32F103Driver/USER/lcd_160x.c"/>
+				<F N="../STM32F103Driver/USER/lcd_160x1.c"/>
+				<F N="../STM32F103Driver/USER/lcd_160x2.c"/>
+				<F N="../STM32F103Driver/USER/lcd_ht1621.c"/>
+				<F N="../STM32F103Driver/USER/lcd_st7565r.c"/>
+				<F N="../STM32F103Driver/USER/led_customer.c"/>
+				<F N="../STM32F103Driver/USER/monitor.c"/>
+				<F N="../STM32F103Driver/USER/newled_customer.c"/>
+				<F N="../STM32F103Driver/USER/nor_flash.c"/>
+				<F N="../STM32F103Driver/USER/pwr_ctrl.c"/>
+				<F N="../STM32F103Driver/USER/rtc.c"/>
+				<F N="../STM32F103Driver/USER/sdio_sd.c"/>
+				<F N="../STM32F103Driver/USER/spi_m25p80.c"/>
+				<F N="../STM32F103Driver/USER/stm32f10x_it.c"/>
+				<F N="../STM32F103Driver/USER/SysTick.c"/>
+				<F N="../STM32F103Driver/USER/usart.c"/>
+				<F N="../STM32F103Driver/USER/usb_app.c"/>
+				<F N="../STM32F103Driver/USER/USB_Application.c"/>
+				<F N="../STM32F103Driver/USER/usbh_usr.c"/>
+			</Folder>
+			<Folder Name="Utilities">
+				<Folder Name="Third_Party">
+					<Folder Name="fat_fs">
+						<Folder Name="inc">
+							<F N="../STM32F103Driver/Utilities/Third_Party/fat_fs/inc/diskio.h"/>
+							<F N="../STM32F103Driver/Utilities/Third_Party/fat_fs/inc/ff.h"/>
+							<F N="../STM32F103Driver/Utilities/Third_Party/fat_fs/inc/ffconf.h"/>
+							<F N="../STM32F103Driver/Utilities/Third_Party/fat_fs/inc/integer.h"/>
+						</Folder>
+						<Folder Name="src">
+							<Folder Name="option">
+								<F N="../STM32F103Driver/Utilities/Third_Party/fat_fs/src/option/ccsbcs.c"/>
+								<F N="../STM32F103Driver/Utilities/Third_Party/fat_fs/src/option/syncobj.c"/>
+							</Folder>
+							<F N="../STM32F103Driver/Utilities/Third_Party/fat_fs/src/diskio.c"/>
+							<F N="../STM32F103Driver/Utilities/Third_Party/fat_fs/src/ff.c"/>
+						</Folder>
+					</Folder>
+				</Folder>
+				<Folder Name="USB_APP">
+					<Folder Name="inc">
+						<F N="../STM32F103Driver/Utilities/USB_APP/inc/hw_config.h"/>
+						<F N="../STM32F103Driver/Utilities/USB_APP/inc/usb_conf.h"/>
+						<F N="../STM32F103Driver/Utilities/USB_APP/inc/usb_desc.h"/>
+						<F N="../STM32F103Driver/Utilities/USB_APP/inc/usb_istr.h"/>
+						<F N="../STM32F103Driver/Utilities/USB_APP/inc/usb_prop.h"/>
+						<F N="../STM32F103Driver/Utilities/USB_APP/inc/usb_pwr.h"/>
+						<F N="../STM32F103Driver/Utilities/USB_APP/inc/usbd_conf.h"/>
+						<F N="../STM32F103Driver/Utilities/USB_APP/inc/usbd_desc.h"/>
+						<F N="../STM32F103Driver/Utilities/USB_APP/inc/usbh_conf.h"/>
+						<F N="../STM32F103Driver/Utilities/USB_APP/inc/usbh_msc_usr.h"/>
+						<F N="../STM32F103Driver/Utilities/USB_APP/inc/usbh_usr.h"/>
+					</Folder>
+					<F N="../STM32F103Driver/Utilities/USB_APP/hw_config.c"/>
+					<F N="../STM32F103Driver/Utilities/USB_APP/usb_bsp.c"/>
+					<F N="../STM32F103Driver/Utilities/USB_APP/usb_desc.c"/>
+					<F N="../STM32F103Driver/Utilities/USB_APP/usb_endp.c"/>
+					<F N="../STM32F103Driver/Utilities/USB_APP/usb_istr.c"/>
+					<F N="../STM32F103Driver/Utilities/USB_APP/usb_prop.c"/>
+					<F N="../STM32F103Driver/Utilities/USB_APP/usb_pwr.c"/>
+					<F N="../STM32F103Driver/Utilities/USB_APP/usbd_desc.c"/>
+					<F N="../STM32F103Driver/Utilities/USB_APP/usbd_storage_msd.c"/>
+					<F N="../STM32F103Driver/Utilities/USB_APP/usbd_usr.c"/>
+					<F N="../STM32F103Driver/Utilities/USB_APP/usbh_msc_usr.c"/>
+				</Folder>
+				<F N="../STM32F103Driver/Utilities/system_stm32f2xx.c"/>
+			</Folder>
+		</Folder>
+	</Files>
+</Project>

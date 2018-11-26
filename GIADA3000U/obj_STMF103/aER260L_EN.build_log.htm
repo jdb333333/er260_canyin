@@ -1,0 +1,120 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: jdb Administrator, jdb, LIC=UJWMM-X0BKA-UG07Q-NMRPK-X7RGW-GKR2M
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18
+Toolchain Path:  D:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.18.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+E:\ER260_CANYIN\GIADA3000U\GIADA3000U.uvprojx
+Project File Date:  10/23/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Build target 'ER260LEN'
+compiling Tax.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\Tax.c(49): warning:  #550-D: variable "taxcount" was set but never used
+      BYTE t, i, k, taxcount;
+..\ER260_China\EOSCLCD\Tax.c(339): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                  strcpy(ProgLineMes,ApplVar.Tax.Name);
+..\ER260_China\EOSCLCD\Tax.c(351): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                              
+opyFrStr(ProgLineMes,ApplVar.Tax.Name);
+..\ER260_China\EOSCLCD\Tax.c(374): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  						    PrintAmt(ApplVar.Tax.Name, &ApplVar.Cost);
+..\ER260_China\EOSCLCD\Tax.c: 6 warnings, 0 errors
+compiling Main.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\MessageEN_C.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\ER260_China\EOSCLCD\MFRCard.h(57): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\ER260_China\EOSCLCD\FEcrTest.h(43): warning:  #1295-D: Deprecated declaration FisTestProc - give arg types
+  extern void FisTestProc();
+..\ER260_China\EOSCLCD\FEcrTest.h(44): warning:  #1295-D: Deprecated declaration chkAutoReceiptKey - give arg types
+  extern void chkAutoReceiptKey();
+..\ER260_China\EOSCLCD\Main.c(65): warning:  #951-D: return type of function "main" must be "int"
+  void main()
+..\ER260_China\EOSCLCD\Main.c(72): warning:  #223-D: function "InitMonitor" declared implicitly
+      InitMonitor(MONITOR_RS232);
+..\ER260_China\EOSCLCD\Main.c(78): warning:  #223-D: function "msDelay" declared implicitly
+      
+elay(5);//?诨????系绺?位???泻螅??砑?约3ms????时。??为???鞯舻纭?复位100ms?螅?位?藕???效时，系统???俅?????约1.5ms
+..\ER260_China\EOSCLCD\Main.c(127): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                      DispStrXY(cCHARGEBATNOW,0,1);
+..\ER260_China\EOSCLCD\Main.c(516): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(FormatQtyStr(Msg[
+IANGSHU].str, &ApplVar.SaleQty, 
+CREENWD),0,
+CREENLN-2);//ccr2016-03-03
+..\ER260_China\EOSCLCD\Main.c(542): warning:  #223-D: function "PbPrint" declared implicitly
+  			PbPrint();
+..\ER260_China\EOSCLCD\Main.c(543): warning:  #223-D: function "PbTender" declared implicitly
+  			PbTender();
+..\ER260_China\EOSCLCD\Main.c(556): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(FormatQtyStr(Msg[
+IANGSHU].str, &ApplVar.SaleQty, 
+CREENWD),0,
+CREENLN-2);//ccr2016-03-03
+..\ER260_China\EOSCLCD\Main.c(579): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(FormatQtyStr(Msg[
+IANGSHU].str, &ApplVar.SaleQty, 
+CREENWD),0,
+CREENLN-2);//ccr2016-03-03
+..\ER260_China\EOSCLCD\Main.c(585): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(FormatQtyStr(Msg[
+IANGSHU].str, &ApplVar.SaleQty, 
+CREENWD),0,
+CREENLN-2);//ccr2016-03-03
+..\ER260_China\EOSCLCD\Main.c(849): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+      Editor.EditBuff = EntryBuffer;
+..\ER260_China\EOSCLCD\Main.c(979): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+          SendExtPrinter(Cmd,Line,1);
+..\ER260_China\EOSCLCD\Main.c: 20 warnings, 0 errors
+linking...
+Program Size: Code=232768 RO-data=97872 RW-data=1340 ZI-data=113632  
+FromELF: creating hex file...
+".\obj_STMF103\aER260L_EN.axf" - 0 Error(s), 24 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\ER260_CANYIN\GIADA3000U\RTE
+  D:\keil5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
