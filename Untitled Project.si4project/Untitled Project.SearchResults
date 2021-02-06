@@ -1,30 +1,24 @@
----- taxNumber Matches (33 in 12 files) ----
-appl.h (ER260_China\EOSCLCD) line 738 : //#define taxNumber			3 	    /* number of tax itemizers */
+---- jdb Matches (23 in 8 files) ----
 appl.h (ER260_China\EOSCLCD) line 739 : #define taxNumber			12 	    //jdb2018-10-26增加到12种税
-appl.h (ER260_China\EOSCLCD) line 850 : #define depTotalOffSet		(depRandomSize+depCapSize+depPriceSize+depPriMaxSize+5+(taxNumber!=0)*1)    	/* Start of totalizer in record */
-appl.h (ER260_China\EOSCLCD) line 1287 : #define RamOfPBf	(taxNumber * taxRecordSize+RamOfTax)
-DEFAULT in appl.h (ER260_China\EOSCLCD) :     struct TAXRECORD    Tax[taxNumber];
-{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) :         TaxNumber,
-Chinaapp.c (ER260_China\EOSCLCD) line 755 : 		taxNumber		,              /* (3) number of tax itemizers max 8 */
-ProcessRecord in Computer.c (ER260_China\EOSCLCD) : 						ApplVar.TaxNumber = type - TAX - 1;
-ProcessRecord in Computer.c (ER260_China\EOSCLCD) : 						ApplVar.TaxNumber = start;
-Collect_Data in Flowbill.c (ER260_China\EOSCLCD) :         ApplVar.FlowBuff.CDC_Tax.TaxID = ApplVar.TaxNumber+1;
-DispTAX in Flowbill.c (ER260_China\EOSCLCD) :     ApplVar.TaxNumber = ApplVar.FlowBuff.CDC_Tax.TaxID-1;
-GPRS_ProcessRecord in Gprs.c (ER260_China\EOSCLCD) :                         ApplVar.TaxNumber = type - TAX - 1;
-GPRS_ProcessRecord in Gprs.c (ER260_China\EOSCLCD) :                         if (ApplVar.TaxNumber<ApplVar.AP.Tax.Number)
-GPRS_ProcessRecord in Gprs.c (ER260_China\EOSCLCD) :                         ApplVar.TaxNumber = start;
-InitTax in Initappl.c (ER260_China\EOSCLCD) :     for (ApplVar.TaxNumber = 0; ApplVar.TaxNumber < ApplVar.AP.Tax.Number; ApplVar.TaxNumber++)
-InitTax in Initappl.c (ER260_China\EOSCLCD) : 		memcpy(&ApplVar.Tax,(char*)&Def.Tax+ApplVar.TaxNumber*sizeof(ApplVar.Tax),sizeof(ApplVar.Tax));
-Menu.c (ER260_China\EOSCLCD) line 403 :     { SETTAX    ,(*ReadTax),    (char*)ApplVar.Tax.Name,    (WORD*)&ApplVar.TaxNumber,      (WORD*)&ApplVar.AP.Tax.Number,0,0},  //***BYTE//税率
-ProgTax in Program.c (ER260_China\EOSCLCD) :     ApplVar.TaxNumber = Appl_ProgNumber;
-PrintTax in Report.c (ER260_China\EOSCLCD) :     ApplVar.TaxNumber = number;
-GetTaxOffSet in Tax.c (ER260_China\EOSCLCD) :     RamOffSet = ApplVar.TaxNumber * ApplVar.AP.Tax.RecordSize + ApplVar.AP.StartAddress[AddrTax];
-WriteTax in Tax.c (ER260_China\EOSCLCD) :     if (ApplVar.TaxNumber < ApplVar.AP.Tax.Number)
-CalculateTax in Tax.c (ER260_China\EOSCLCD) : 	        for (ApplVar.TaxNumber = 0; ApplVar.TaxNumber < ApplVar.AP.Tax.Number; ApplVar.TaxNumber++)
-CalculateTax in Tax.c (ER260_China\EOSCLCD) : 			            ApplVar.TaxItem[ApplVar.TaxNumber] = ApplVar.Amt;   /* used for external invoice */
-CalculateTax in Tax.c (ER260_China\EOSCLCD) : 	                ApplVar.Amt = ApplVar.TaxItem[ApplVar.TaxNumber];/* 读取税种销售金额累计 */
-tcp_ProcessRecord in tcp_server.c (ER260_China\EOSTCPIP) :                         ApplVar.TaxNumber = type - TAX - 1;
-tcp_ProcessRecord in tcp_server.c (ER260_China\EOSTCPIP) :                         if (ApplVar.TaxNumber<ApplVar.AP.Tax.Number)
-tcp_ProcessRecord in tcp_server.c (ER260_China\EOSTCPIP) :                         ApplVar.TaxNumber = start;
-USBDiskApp.c (ER260_China\EOSCLCD) line 328 : {TAXREC		 ,cTAXCAP     ,(*Inport_TAX),     (*Export_TAX),     (char*)&ApplVar.Tax,        sizeof(ApplVar.Tax),            (WORD*)&ApplVar.AP.Tax.Number,     (WORD*)&ApplVar.TaxNumber,	(*ReadTax),(*WriteTax)},  		//TAXREC  税率 //BYTE
-CSV_TAX in USBDiskApp.c (ER260_China\EOSCLCD) : 	ApplVar.TaxNumber = ApplVar.FlowBuff.CDC_Tax.TaxID-1;
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) :         PrintFlag,//jdb2018-10-23 打印标志 BIT0 1不打印0打印
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) :         TaxItem[taxNumber],//jdb2018-10-26 8个定值改为taxNumber【12】
+Chinaapp.c (ER260_China\EOSCLCD) line 919 : 		//jdb2018-10-26增加到12种税
+ProcessFunctions in Main.c (ER260_China\EOSCLCD) : 	//jdb2018-10-24餐饮结账保存参数
+ProcessFunctions in Main.c (ER260_China\EOSCLCD) :     	//jdb2018-10-24餐饮结账不需要按FINALZE，加入TENDER按键功能前面执行
+OutPrint in Main.c (ER260_China\EOSCLCD) : //jdb2018-10-23餐饮功能只有PRINT PB打印
+ListItems in Menu.c (ER260_China\EOSCLCD) : 	BYTE deptflag = 0;//jdb2018-10-25 部类设置菜单列表 1
+ListItems in Menu.c (ER260_China\EOSCLCD) :     case SETDEPT://jdb2018-10-25 部类设置菜单列表 1
+Pb.c (ER260_China\EOSCLCD) line 396 : //jdb2018-10-24餐饮结账不需要按FINALZE，加入TENDER按键功能前面执行
+PbTender in Pb.c (ER260_China\EOSCLCD) : 	//SETBIT(ApplVar.PrintFlag, BIT0);//jdb2018-10-23不打印
+Pb.c (ER260_China\EOSCLCD) line 514 : //jdb2018-10-24
+PbFunction in Pb.c (ER260_China\EOSCLCD) : 	SETBIT(ApplVar.PrintFlag, BIT0);//jdb2018-10-23不打印
+PbFunction in Pb.c (ER260_China\EOSCLCD) : 	if(type == 4){//jdb2018-10-23 PRINT PB
+PbFunction in Pb.c (ER260_China\EOSCLCD) :     	if(Appl_EntryCounter && type == 4)//jdb2018-10-23PRINT PB打印不需要输入数字
+PbFunction in Pb.c (ER260_China\EOSCLCD) : //jdb2018-10-23PRINT PB打印
+Progopt.c (ER260_China\EOSCLCD) line 96 : //jdb2018-10-25
+Progopt.c (ER260_China\EOSCLCD) line 118 : //jdb2018-10-25
+GetOpt in Progopt.c (ER260_China\EOSCLCD) : #if 1//jdb2018-10-25编辑TAX1 TAX2
+ProgDept in Program.c (ER260_China\EOSCLCD) : 		#if 1//jdb2018-10-25 增加一项TAX2
+Tax.c (ER260_China\EOSCLCD) line 45 : #if 1//jdb2018-10-25部类关联两种税
+AddTaxItem in Tax.c (ER260_China\EOSCLCD) : #if 1//jdb2018-10-26税A关联税A_1 A_2。。。
+CalculateTax in Tax.c (ER260_China\EOSCLCD) : 						if(ApplVar.TaxNumber >= 4)//jdb2018-10-26关联税不加入SUBTOTAL

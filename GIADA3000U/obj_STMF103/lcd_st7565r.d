@@ -1,9 +1,9 @@
 .\obj_stmf103\lcd_st7565r.o: ..\STM32F103Driver\USER\lcd_st7565r.c
-.\obj_stmf103\lcd_st7565r.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj_stmf103\lcd_st7565r.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj_stmf103\lcd_st7565r.o: ..\ER260_China\EOSCLCD\king.h
-.\obj_stmf103\lcd_st7565r.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
-.\obj_stmf103\lcd_st7565r.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\obj_stmf103\lcd_st7565r.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj_stmf103\lcd_st7565r.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj_stmf103\lcd_st7565r.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj_stmf103\lcd_st7565r.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\obj_stmf103\lcd_st7565r.o: ..\ER260_China\EOSCLCD\debug.h
 .\obj_stmf103\lcd_st7565r.o: ..\STM32F103Driver\USER\inc\include.h
 .\obj_stmf103\lcd_st7565r.o: ..\STM32F103Driver\Libraries\CMSIS\stm32f10x.h

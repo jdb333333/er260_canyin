@@ -138,6 +138,6 @@
 ".\obj_stmf103\usb_int.o"
 ".\obj_stmf103\usb_mem.o"
 --library_type=microlib --strict --scatter ".\obj_STMF103\aER100EN_INDIA_GPRS.sct"
---summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\obj_MAP\aER100EN_INDIA_GPRS.map" -o .\obj_STMF103\aER100EN_INDIA_GPRS.axf

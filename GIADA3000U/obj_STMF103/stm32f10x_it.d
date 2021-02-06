@@ -2,7 +2,7 @@
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\USER\inc\stm32f10x_it.h
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\Libraries\CMSIS\stm32f10x.h
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\Libraries\CMSIS\CoreSupport\core_cm3.h
-.\obj_stmf103\stm32f10x_it.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj_stmf103\stm32f10x_it.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\Libraries\CMSIS\system_stm32f10x.h
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\USER\inc\stm32f10x_conf.h
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -31,10 +31,10 @@
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\USER\inc\sdio_sd.h
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\USER\inc\usart.h
-.\obj_stmf103\stm32f10x_it.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj_stmf103\stm32f10x_it.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\Print\print.h
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\USER\inc\monitor.h
-.\obj_stmf103\stm32f10x_it.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\obj_stmf103\stm32f10x_it.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\USER\inc\include.h
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\USER\inc\SysTick.h
 .\obj_stmf103\stm32f10x_it.o: ..\STM32F103Driver\USER\inc\fsmc_sram.h

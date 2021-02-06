@@ -2,7 +2,7 @@
 .\obj_stmf103\stm32f10x_rcc.o: ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
 .\obj_stmf103\stm32f10x_rcc.o: ..\STM32F103Driver\Libraries\CMSIS\stm32f10x.h
 .\obj_stmf103\stm32f10x_rcc.o: ..\STM32F103Driver\Libraries\CMSIS\CoreSupport\core_cm3.h
-.\obj_stmf103\stm32f10x_rcc.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj_stmf103\stm32f10x_rcc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj_stmf103\stm32f10x_rcc.o: ..\STM32F103Driver\Libraries\CMSIS\system_stm32f10x.h
 .\obj_stmf103\stm32f10x_rcc.o: ..\STM32F103Driver\USER\inc\stm32f10x_conf.h
 .\obj_stmf103\stm32f10x_rcc.o: ..\STM32F103Driver\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
